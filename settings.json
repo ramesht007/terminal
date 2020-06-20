@@ -26,15 +26,9 @@
         "profiles" : 
         [
             {
-                "guid": "{abc00000-0000-0000-0000-000000000000}",
-                "name": "Git-Bash",
-                "commandline": "%PROGRAMFILES%\\Git\\bin\\bash.exe",
-                "icon": "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-                "startingDirectory" : "~"
-            },
-            {
-                "acrylicOpacity" : 0.5,
+                "acrylicOpacity" : 0.6,
                 "background" : "#012456",
+                "backgroundImageOpacity" : 0.3,
                 "closeOnExit" : true,
                 "colorScheme" : "Campbell",
                 "commandline" : "powershell.exe",
@@ -49,10 +43,11 @@
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
                 "startingDirectory" : "%USERPROFILE%",
-                "useAcrylic" : false
+                "useAcrylic" : true                
             },
             {
                 "acrylicOpacity" : 0.75,
+                "backgroundImageOpacity" : 0.3,
                 "closeOnExit" : true,
                 "colorScheme" : "Campbell",
                 "commandline" : "cmd.exe",
@@ -68,6 +63,40 @@
                 "snapOnInput" : true,
                 "startingDirectory" : "%USERPROFILE%",
                 "useAcrylic" : true
+            },
+            {
+                "acrylicOpacity" : 0.75,
+                "backgroundImageOpacity" : 0.3,
+                "guid": "{abc00000-0000-0000-0000-000000000000}",
+                "name": "Git-Bash",
+                "commandline": "%PROGRAMFILES%\\Git\\bin\\bash.exe",
+                "icon": "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "startingDirectory" : "~",
+                "cursorShape" : "bar",
+                "fontFace" : "Consolas",
+                "historySize" : 9001,
+                "padding" : "0, 0, 0, 0",
+                "useAcrylic" : true
+                
+            },
+            {
+                "acrylicOpacity" : 0.5,
+                "backgroundImageOpacity" : 0.3,
+                "closeOnExit" : true,
+                "colorScheme" : "Campbell",
+                "commandline" : "cmd.exe /K C:\\Users\\rames\\Anaconda3\\Scripts\\activate.bat",
+                "cursorColor" : "#FFFFFF",
+                "cursorShape" : "bar",
+                "fontFace" : "Consolas",
+                "fontSize" : 10,
+                "guid" : "{0caa0dad-35be-5f56-a8ff-afceeeaa6106}",
+                "historySize" : 9001,
+                "icon" : "C:\\Users\\rames\\Anaconda3\\Menu\\anaconda-navigator.ico",
+                "name" : "Anaconda",
+                "padding" : "0, 0, 0, 0",
+                "snapOnInput" : true,
+                "startingDirectory" : "D:/Python",
+                "useAcrylic" : true   
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
