@@ -23,6 +23,12 @@
     // Each one of them will appear in the 'New Tab' dropdown,
     //   and can be invoked from the commandline with `wt.exe -p xxx`
     // To learn more about profiles, visit https://aka.ms/terminal-profile-settings
+        "keybindings": [
+            {
+                "command":"toggleFullscreen",
+                "keys":["ctrl+f"]
+            }
+        ],
         "profiles" : 
         [
             {
@@ -76,8 +82,7 @@
                 "fontFace" : "Consolas",
                 "historySize" : 9001,
                 "padding" : "0, 0, 0, 0",
-                "useAcrylic" : true
-                
+                "useAcrylic" : true                
             },
             {
                 "acrylicOpacity" : 0.5,
