@@ -41,7 +41,7 @@
                 "keys":["ctrl+shift+n"]
             }
         ],
-        "profiles" :
+        "profiles" : 
         [
             {
                 "acrylicOpacity" : 0.6,
@@ -61,7 +61,7 @@
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
                 "startingDirectory" : "%USERPROFILE%",
-                "useAcrylic" : true
+                "useAcrylic" : true                
             },
             {
                 "acrylicOpacity" : 0.75,
@@ -83,6 +83,24 @@
                 "useAcrylic" : true
             },
             {
+                "acrylicOpacity":0.75,
+                "closeOnExit":true,
+                "colorScheme":"Campbell",
+                "commandline":"wsl.exe -d Ubuntu-20.04",
+                "cursorColor":"#FFFFFF",
+                "cursorShape":"bar",
+                "fontFace":"Consolas",
+                "fontSize":12,
+                "guid":"{00064a18-ea87-4764-bf8b-ae4582e0b458}",
+                "historySize":9001,
+                "icon":"C:\\Users\\rames\\Documents\\ubuntu-icon.png",
+                "name":"Ubuntu",
+                "padding":"0, 0, 0, 0",
+                "snapOnInput":true,
+                "startingDirectory":"%USERPROFILE%",
+                "useAcrylic":true
+            },
+            {
                 "acrylicOpacity" : 0.75,
                 "backgroundImageOpacity" : 0.3,
                 "guid": "{abc00000-0000-0000-0000-000000000000}",
@@ -94,7 +112,7 @@
                 "fontFace" : "Consolas",
                 "historySize" : 9001,
                 "padding" : "0, 0, 0, 0",
-                "useAcrylic" : true
+                "useAcrylic" : true                
             },
             {
                 "acrylicOpacity" : 0.5,
@@ -113,7 +131,7 @@
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
                 "startingDirectory" : "D:/Python",
-                "useAcrylic" : true
+                "useAcrylic" : true   
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -128,7 +146,7 @@
                 "source": "Windows.Terminal.Wsl"
             }
         ],
-        "schemes" :
+        "schemes" : 
         [
             {
                 "background" : "#0C0C0C",
@@ -236,5 +254,5 @@
                 "yellow" : "#B58900"
             }
         ]
-
-}
+    
+}    
